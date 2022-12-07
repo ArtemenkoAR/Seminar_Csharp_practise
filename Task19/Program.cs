@@ -11,10 +11,11 @@ int Y2 = int.Parse(Console.ReadLine()!);
 
 int AB = X2 - X1;
 int BC = Y2 - Y1;
-int a = AB * AB;
-int b = BC * BC;
+double a = AB * AB;
+double b = BC * BC;
+double d = a +b;
 
-double c = Math.Sqrt(a+b);
+double c = Math.Sqrt(d);
 
 
 Console.WriteLine($"Расстояние между двумя точками = {c}");
