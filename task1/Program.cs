@@ -6,13 +6,11 @@
 
 int n = new Random().Next(10, 100);
 Console.WriteLine(n);
-int a = n/10;
-int b = n%10;
-int max = a;
+int a = n / 10;
+int b = n % 10;
+intmax = a;
 
-if (b > a ) max = b;
+if (b > a)
+    max = b;
 
 Console.WriteLine($"Максимальная цифра в числе {n} --> {max}");
-
-
-
