@@ -6,7 +6,7 @@
 
 Console.WriteLine("Введите число");
 int num = int.Parse(Console.ReadLine()!);
-Console.WriteLine($"Сумма чисел равна = {SumNum}");
+Console.WriteLine($"Сумма чисел равна = {SumNum(num)}");
 
 int SumNum(int number)
 {
