@@ -4,3 +4,19 @@
 // 4 -> 10
 // 8 -> 36
 
+Console.WriteLine("Введите число");
+int num = int.Parse(Console.ReadLine()!);
+Console.WriteLine($"Сумма чисел равна = {SumNum}");
+
+int SumNum(int number)
+{
+    int sum = 0;
+    while (number >0)
+    {
+        sum += number;
+        number--;
+    }
+    return sum;
+}
+
+
