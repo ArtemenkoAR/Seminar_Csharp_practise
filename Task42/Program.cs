@@ -5,14 +5,16 @@
 
 Console.WriteLine("Введите число:");
 int num = int.Parse(Console.ReadLine()!);
-
+string Decimal(int n)
+{
 int res = 0;
 string a = String.Empty;
-while (num > 0)
+while (n > 0)
 {
-    res = num % 2;
-    num = num / 2;
+    res = n % 2;
+    n = n / 2;
     a = res + a;
 }
-Console.Write(a);
-
+return a;
+}
+Console.Write(Decimal(num));
